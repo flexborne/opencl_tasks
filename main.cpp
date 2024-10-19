@@ -15,7 +15,7 @@ cl_device_id device_id;
 int main(int argc, char** argv) {
   std::srand(std::chrono::high_resolution_clock::now().time_since_epoch().count());
 
-  auto* kernelFile = fopen("../../common.cl", "r");
+  auto* kernelFile = fopen("common.cl", "r");
 
 	if (!kernelFile) {
     assert(false);
@@ -67,10 +67,10 @@ int main(int argc, char** argv) {
   assert(ret == CL_SUCCESS);
 
 
-  //task1(false);
+  task1(false);
 
-  //task2(false);
-  //task3();
+  task2(false);
+  task3();
   task4(false);
 
 	ret = clFlush(queue);
