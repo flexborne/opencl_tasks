@@ -1,0 +1,3 @@
+C:/Users/Alexander/opencl/build/Debug/CMakeFiles/cl.dir
+C:/Users/Alexander/opencl/build/Debug/CMakeFiles/edit_cache.dir
+C:/Users/Alexander/opencl/build/Debug/CMakeFiles/rebuild_cache.dir
